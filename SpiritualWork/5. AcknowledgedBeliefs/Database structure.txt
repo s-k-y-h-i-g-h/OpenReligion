@@ -1,0 +1,55 @@
+The common beliefs are stored in a .json file.
+Thus, it can be easily edited and stored in Github, yet the homepage will be able to process it.
+
+Database structure:
+(\*\*: List reference)
+(\*: Single reference)
+
+Data Structure
+
+Categories
+-Caption
+-Description
+-\*\*Beliefs
+
+Belief
+-Caption
+-Text
+-\*\*Harms
+-\*\*Benefits
+-\*\*Simmilar Beliefs
+-\*\*Opposing Beliefs
+-ReligiousDifferencesFactor
+-\*\*Arguments
+-\*\*BeliefVotes
+
+
+HarmsBeliefs
+-\*Harm
+-\*Belief
+-Weight
+
+BenefitsBeliefs
+-\*Benefit
+-\*Belief
+-Weight
+
+Arguments
+-Caption
+-Text
+-ProCon
+
+Harm
+-Caption
+-Description
+-Impact
+
+Benefit
+-Caption
+-Description
+-Impact
+
+BeliefVotes
+-\*User (must be kept secret! anonymize if possible)
+-\*Belief
+-Vote (1-5)
