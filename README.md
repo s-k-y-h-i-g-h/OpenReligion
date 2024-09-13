@@ -1,4 +1,4 @@
-# OpenReligion
+# Introduction
 
 An open source religion for the 21st century.
 
